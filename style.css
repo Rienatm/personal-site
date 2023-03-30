@@ -1,7 +1,7 @@
 html {
     height: 100%;
   }
-  
+
   body {
     display: flex;
     justify-content: center;
@@ -118,4 +118,10 @@ html {
         transform: translateX(1);
     }
 }
+
+#thankyouMessage {
+  opacity: 0;
+  transition: all 0.5s;
+}
+
 /* ....................... */
